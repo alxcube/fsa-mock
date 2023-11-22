@@ -41,7 +41,7 @@ describe("saveFile() function", () => {
     beforeEach(() => {
         // You can pass options to install() method
         mock.install();
-        file = new File(["example file contents"]);
+        file = new File(["example file contents"], "file.txt");
     });
 
     afterEach(() => {
