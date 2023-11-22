@@ -18,10 +18,16 @@
     "lint": "npm run prettier && eslint ./src --ext .ts",
     "prettier": "prettier --write \"src/**/*.ts\""
   },
-  "description": "",
-  "keywords": [],
+  "files": ["dist/"],
+  "description": "File System Access API mock",
+  "keywords": ["file system", "file system access", "mock", "test"],
   "author": "Alexander Alexandrov <alxcube@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/alxcube/fsa-mock",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alxcube/fsa-mock.git"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
