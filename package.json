@@ -1,6 +1,5 @@
 {
   "name": "fsa-mock",
-  "private": true,
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/fsa-mock.umd.cjs",
